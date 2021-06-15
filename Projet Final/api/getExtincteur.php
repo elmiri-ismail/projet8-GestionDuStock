@@ -1,4 +1,5 @@
 <?php
+
 $dbh = new PDO("mysql:host=localhost;dbname=tableaux","root","Miriismail2002");
 $sql = " SELECT * FROM exproduit ";
 $extincteurQuery = $dbh->query($sql);

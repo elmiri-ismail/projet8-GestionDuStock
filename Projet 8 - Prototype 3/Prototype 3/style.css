@@ -161,4 +161,5 @@ h6{
 }
 li:hover{
 	transform: scale(1.2, 1.2);
+	background-color: aqua;
 }
